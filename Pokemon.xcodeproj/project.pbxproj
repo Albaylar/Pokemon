@@ -122,11 +122,9 @@
 		690D179C29CDFB6F00463AEF /* Home */ = {
 			isa = PBXGroup;
 			children = (
-				690D177A29CDB40600463AEF /* HomeViewController.swift */,
-				690D179629CDB97F00463AEF /* ListViewModel.swift */,
-				690D179229CDB80700463AEF /* PokemonModel.swift */,
-				690D178E29CDB57300463AEF /* PokemonTableViewCell.swift */,
-				690D178F29CDB57300463AEF /* PokemonTableViewCell.xib */,
+				690D17A529CEDE6700463AEF /* View */,
+				690D17A429CEDE5700463AEF /* ViewModel */,
+				690D17A629CEDE7100463AEF /* Model */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -134,11 +132,61 @@
 		690D179D29CE404500463AEF /* Detail */ = {
 			isa = PBXGroup;
 			children = (
-				690D179E29CE406100463AEF /* DetailViewModel.swift */,
-				690D17A029CE40E300463AEF /* DetailViewController.swift */,
-				690D17A229CE411400463AEF /* DetailModel.swift */,
+				690D17A729CEDECE00463AEF /* View */,
+				690D17A829CEDEE900463AEF /* ViewModel */,
+				690D17A929CEDEF800463AEF /* Model */,
 			);
 			path = Detail;
+			sourceTree = "<group>";
+		};
+		690D17A429CEDE5700463AEF /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				690D179629CDB97F00463AEF /* ListViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		690D17A529CEDE6700463AEF /* View */ = {
+			isa = PBXGroup;
+			children = (
+				690D177A29CDB40600463AEF /* HomeViewController.swift */,
+				690D178E29CDB57300463AEF /* PokemonTableViewCell.swift */,
+				690D178F29CDB57300463AEF /* PokemonTableViewCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		690D17A629CEDE7100463AEF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				690D179229CDB80700463AEF /* PokemonModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		690D17A729CEDECE00463AEF /* View */ = {
+			isa = PBXGroup;
+			children = (
+				690D17A029CE40E300463AEF /* DetailViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		690D17A829CEDEE900463AEF /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				690D179E29CE406100463AEF /* DetailViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		690D17A929CEDEF800463AEF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				690D17A229CE411400463AEF /* DetailModel.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 		9E37C47E616632AC1C1AA39B /* Pods */ = {
