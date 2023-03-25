@@ -31,7 +31,6 @@ class PokemonModel {
             }
             self.data = response.results ?? []
             
-            // Verileri aldıktan sonra, her bir verinin 'url' özelliğinden resimlere ait URL'leri elde etmek için bir döngü kullanıyorum.
             for index in 0..<self.data.count {
                 let name = self.data[index].name
                 guard let url = URL(string: "https://pokeapi.co/api/v2/pokemon/\(name ?? "")") else { continue }
